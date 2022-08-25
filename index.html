@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title> job applicaion form</title>
+    <style>
+        body {
+            font-size: 20px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend><b>Job Application Form</b> </legend>
+        <form action=”” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+            <label for=""> Position applied for</label>
+            <select name="position" id="position">
+                <option value="">--select position</option>
+                <option value="Assistant Manager">assistant manager</option>
+                <option value="sde manager"> sde manager</option>
+                <option value="">Data Analyst</option>
+                <option value="Hr">hr</option>
+            </select>
+            <p>
+                <label for="">Name</label>
+                <input type="text" name="name">
+            </p>
+            <p>
+                <label for=""> Nationality</label>
+                <select name="Naionality" id="nation">
+                    <option value="--select">--select</option>
+                    <option value="India">India</option>
+                    <option value="UK">UK</option>
+                    <option value="USA">USA</option>
+                    <option value="Pakistan">Pakistan</option>
+                </select>
+            </p>
+            <label for="Address">Address</label>
+            <textarea name="addrress" id="address" cols="30" rows="10" required></textarea>
+            <p>
+                <label for="">Telephone number</label>
+                <input type="number" name="number" id="number">
+            </p>
+            <p>
+                <label for=""> Email id</label>
+                <input type="email" name="email id" id="email" required>
+            </p>
+            <p>
+                <label for=""> Upload your Marksheet</label>
+                <input type="file" name="file" id="file">
+            </p>
+            <p>
+                <label for=""> Work Experience</label>
+                <input type="text" name="Experience" id="exp">
+            </p>
+            <p>
+                <label for="">Personal statement</label><br>
+                <textarea name="" id="" cols="40" rows="10"></textarea>
+            </p>
+            <INPUT type="submit" value="Submit"> <INPUT type="reset">
+    </fieldset>
+</body>
+
+</html>
